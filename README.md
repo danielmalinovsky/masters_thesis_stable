@@ -12,11 +12,11 @@ This repository contains Jupyter notebooks used for the analysis conducted in th
 
 The analysis is organized into two Jupyter notebooks, each corresponding to the validation of the above hypotheses:
 
-1. [`Notebook 1: USD EUR Analysis`](AMM_v0.3_USDEUR.ipynb): This notebook presents the analysis conducted to address Hypothesis 1. It explores impermanent loss in high volatility markets, provides insights into the impact on liquidity providers' profitability, and supports the conclusion that AMM deposits remain profitable despite the challenges posed by impermanent loss.
+1. [`Notebook 1: USDEUR Analysis`](AMM_v0.3_USDEUR.ipynb): This notebook presents the analysis conducted on USDEUR currency pair. USDEUR is among the more stable trading pair, which is reason why its used to  addresses hypothesis 1. It explores impermanent loss in low volatility markets. It analyzes the profitability of AMM deposits in stable environments, highlights the consistent trading fee potential, and substantiates the hypothesis that AMM deposits are indeed profitable in such market conditions.
 
-2. [`Notebook 2: USD ETH Analysis`](AMM_v0.3_USDETH.ipynb): This notebook focuses on Hypothesis 2, examining impermanent loss in low volatility markets. It analyzes the profitability of AMM deposits in stable environments, highlights the consistent trading fee potential, and substantiates the hypothesis that AMM deposits are indeed profitable in such market conditions.
+2. [`Notebook 2: USDETH Analysis`](AMM_v0.3_USDETH.ipynb): This notebook focuses on the analysis of USDETH currency pair. ETH as one of the cryptocurrencies is highly volatile in nature, which makes it a perfect subject to test Hypothesis 2, examining impermanent loss in high volatility markets. Analysis provides insights into the impact on liquidity providers' profitability, and supports the conclusion that AMM deposits remain profitable despite the challenges posed by impermanent loss.
 
-2. [`Notebook 2: CZK EUR Analysis`](AMM_v0.3_CZKEUR.ipynb): This notebook focuses on Hypothesis 2, examining impermanent loss in low volatility markets. It analyzes the profitability of AMM deposits in stable environments, highlights the consistent trading fee potential, and substantiates the hypothesis that AMM deposits are indeed profitable in such market conditions.
+2. [`Notebook 2: CZKEUR Analysis`](AMM_v0.3_CZKEUR.ipynb): Last analysis is dedicated to the CZKEUR currency, which could be classified as the more stable currency pair. Notebook aims to observe habeviour in low liquidity enviromet similarly to the USDEUR pair.
 
 ## Data
 
