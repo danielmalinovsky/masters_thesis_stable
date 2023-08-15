@@ -18,6 +18,10 @@ The analysis is organized into two Jupyter notebooks, each corresponding to the 
 
 2. [`Notebook 2: CZK EUR Analysis`](AMM_v0.3_CZKEUR.ipynb): This notebook focuses on Hypothesis 2, examining impermanent loss in low volatility markets. It analyzes the profitability of AMM deposits in stable environments, highlights the consistent trading fee potential, and substantiates the hypothesis that AMM deposits are indeed profitable in such market conditions.
 
+## Data
+
+Exchange volume data has been extracted from barchart.com and are available with the notebooks
+Exchange rate data are extracted from finance.yahoo.com directly within the code. No data files are needed in order for code to work.
 
 ## Usage
 
@@ -48,7 +52,7 @@ To explore the analysis conducted in this study, follow these steps:
 If you find this analysis or the corresponding master's thesis helpful, please consider citing it:
 
 ```
-Daniel Malinovsky. "Automated Market Maker – Impermanent Loss Analysis in High and Low Volatility Markets" Year. [URL](https://github.com/danielmalinovsky/masters_thesis_stable).
+Daniel Malinovsky "Automated Market Maker – Impermanent Loss Analysis in High and Low Volatility Markets" 2023 [https://github.com/danielmalinovsky/masters_thesis_stable].
 ```
 
 ## License
